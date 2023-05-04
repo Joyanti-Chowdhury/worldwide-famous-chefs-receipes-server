@@ -8,32 +8,37 @@
       "chef_likes": 10000,
       "recipes": [
         { 
-          "country_id":1,
+          "country_id":"1",
           "recipe_id": 1,
           "recipe_name": "Spaghetti Carbonara",
           "recipe_description": "This classic pasta dish features a creamy egg sauce with crispy bacon and Parmesan cheese.",
           "recipe_img_url": "https://example.com/spaghetti-carbonara.jpg",
           "ingredients": [
+
+          
             "spaghetti",
             "eggs",
             "bacon",
             "Parmesan cheese",
             "black pepper"
-          ],
+      ],
+      
           "instructions": [
+
+          
             "Cook the spaghetti according to the package instructions.",
             "In a separate pan, cook the bacon until crispy and set aside.",
             "In a bowl, whisk together eggs and Parmesan cheese.",
             "Drain the cooked spaghetti and add it to the pan with the bacon.",
             "Remove from heat and add the egg mixture, stirring quickly to avoid scrambling the eggs.",
             "Season with black pepper and serve immediately."
-          ],
+    ],
           "rating": 4.5,
           "num_reviews": 1000,
           "recipe_likes": 500
         },
         {
-          "country_id":2,
+          "country_id":"2",
           "recipe_id": 2,
           "recipe_name": "Roasted Chicken",
           "recipe_description": "This simple yet flavorful roasted chicken is perfect for a cozy Sunday dinner.",
@@ -70,7 +75,7 @@
       "chef_likes": 15000,
       "recipes": [
         {
-          "country_id":3,
+          "country_id":"3",
           "recipe_id": 3,
           "recipe_name": "Beef Wellington",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -104,7 +109,7 @@
       "chef_likes": 15050,
       "recipes": [
         {
-          "country_id":4,
+          "country_id":"4",
           "recipe_id": 4,
           "recipe_name": "Beef Wellington",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -138,7 +143,7 @@
       "chef_likes": 10000,
       "recipes": [
         {
-          "country_id":5,
+          "country_id":"5",
           "recipe_id": 5,
           "recipe_name": "Beef Wellington",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -172,7 +177,7 @@
       "chef_likes": 15000,
       "recipes": [
         {
-          "country_id":6,
+          "country_id":"6",
           "recipe_id": 6,
           "recipe_name": "Beef Wellington",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -206,7 +211,7 @@
       "chef_likes": 16000,
       "recipes": [
         {
-          "country_id":7,
+          "country_id":"7",
           "recipe_id": 7,
           "recipe_name": "Chicken roast",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -240,7 +245,7 @@
       "chef_likes": 14000,
       "recipes": [
         {
-          "country_id":8,
+          "country_id":"8",
           "recipe_id": 8,
           "recipe_name": "Mutton curry",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -274,7 +279,7 @@
       "chef_likes": 12000,
       "recipes": [
         {
-          "country_id":9,
+          "country_id":"9",
           "recipe_id": 9,
           "recipe_name": "Mutton curry",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -307,7 +312,7 @@
       "chef_num_recipes": 67,
       "chef_likes": 11000,
       "recipes": [
-        {"country_id":10,
+        {"country_id":"10",
           "recipe_id":10,
           "recipe_name": "Mutton curry",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -341,7 +346,7 @@
       "chef_likes": 10000,
       "recipes": [
         {
-          "country_id":11,
+          "country_id":"11",
           "recipe_id": 11,
           "recipe_name": "Mutton curry",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -375,7 +380,7 @@
       "chef_likes": 10000,
       "recipes": [
         {
-          "country_id":12,
+          "country_id":"12",
           "recipe_id": 12,
           "recipe_name": "Mutton curry",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",
@@ -409,7 +414,7 @@
       "chef_likes": 10000,
       "recipes": [
         {
-          "country_id":13,
+          "country_id":"13",
           "recipe_id": 13,
           "recipe_name": "Mutton curry",
           "recipe_description": "This British classic features tender beef filet wrapped in puff pastry.",

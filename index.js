@@ -32,7 +32,18 @@ app.get('/chef/:id',(req, res)=>{
 })
 
 
-
+app.get('/countries/:id',(req, res) => {
+    const id = parseInt(req.params.id);
+    console.log(id);
+    if(id === 0){
+        res.send(chef)
+    }
+    else{
+        const countryChefs = chef.filter(c => parseInt(c.country_id )=== id);
+        res.end(countryChefs); 
+    }
+    
+})
 
 app.listen(port,() =>{
     console.log(`Are you ready API is running:${port}`);
