@@ -33,14 +33,17 @@ app.get('/chef/:id',(req, res)=>{
 
 
 app.get('/countries/:id',(req, res) => {
-    const id = parseInt(req.params.id);
+    const id = req.params.id;
     console.log(id);
-    if(id === 0){
+    if(id == 0){
         res.send(chef)
     }
     else{
-        const countryChefs = chef.filter(c => parseInt(c.country_id )=== id);
-        res.end(countryChefs); 
+        console.log(chef[0].recipes[0].country_id);
+
+        const countryChefs = chef.filter(c => c.recipes[0].country_id == id);
+        res.send(countryChefs); 
+        console.log(countryChefs);
     }
     
 })
