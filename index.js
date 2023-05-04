@@ -4,6 +4,7 @@ const cors = require('cors');
 const port = process.env.PORT || 5000;
 
 const countries = require('./data/countries.json');
+const chef = require('./data/chefs.json')
  
 app.use(cors());
 
@@ -15,6 +16,11 @@ app.get('/',(req ,res) =>{
 
 app.get('/countries', (req,res) => {
         res.send(countries)
+})
+
+
+app.get('/chef',(req,res)=>{
+    res.send(chef);
 })
 
 app.listen(port,() =>{
