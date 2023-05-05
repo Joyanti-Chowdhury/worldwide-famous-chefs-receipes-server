@@ -73,7 +73,7 @@
       "chef_experience_years": 30,
       "chef_num_recipes": 75,
       "chef_likes": 15000,
-      "chefs_image":"",
+      "chefs_image":"https://plus.unsplash.com/premium_photo-1661778091956-15dbe6e47442?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "recipes": [
         {
           "country_id":"3",
